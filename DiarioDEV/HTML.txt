@@ -34,6 +34,12 @@ Texto pequeno:
 Traço na página (separar conteúdo):
 - <hr/>
 
+Colocar letra ou número pequeno em cima (exemplo 10^2):
+- <sup>CONTEÚDO</sup>
+
+Colocar letra ou número pequeno em baixo:
+- <sub>CONTEÚDO</sub>
+
 Negrito:
 - <strong>CONTEÚDO</strong>
 
