@@ -40,8 +40,11 @@ Colocar letra ou número pequeno em cima (exemplo 10^2):
 Colocar letra ou número pequeno em baixo:
 - <sub>CONTEÚDO</sub>
 
-Negrito:
+Negrito (com ênfase no texto):
 - <strong>CONTEÚDO</strong>
+
+Negrito simples:
+- <b>CONTEÚDO</b>
 
 Itálico:
 - <i>CONTEÚDO</i>
@@ -51,6 +54,9 @@ Sublinhado:
 
 Riscado no meio:
 - <s>CONTEÚDO</s>
+
+Deixar texto marcado (colorido de marca texto):
+- <mark>CONTEÚDO</mark>
 
 Âncora/link:
 - <a href="DIGITE O LINK AQUI" target="_self(para abrir o link na mesma tela) _blank(para abrir nova janela)">CONTEÚDO</a>
@@ -77,3 +83,35 @@ Lista não ordenada - Com bolinha antes do conteúdo:
         CONTEÚDO
     </li>
   </ul>
+  
+Formulário:
+- <form>CONTEÚDO</form>
+  
+Botão:
+- <button>CONTEÚDO</button>
+
+Fonte de texto:
+- <font color="" face="'Sans serif', Arial, Roboto" >CONTEÚDO</font>
+
+Estruturação (tipo display block, então ocupa toda vertical da página):
+- <div>CONTEÚDO</div>
+
+Estruturação pro meio da página (bom pra mudar cor de uma letra ou parte de um texto):
+- <span>CONTEÚDO</span>
+
+Estruturação pro meio da página (funciona como span, mas normalmente vem ao lado de um campo "input" por exemplo):
+- <label>CONTEÚDO</label>
+
+Fazer retângulo ao redor de um trecho (segmentação):
+- <fieldset>CONTEÚDO</fieldset>
+
+Fazer título para o segmento (fieldset):
+- <legend>CONTEÚDO</legend>
+
+Vídeos:
+- <video controls autoplay>
+    <source src="...">
+  </video>
+  
+Abrir outras páginas dentro de uma página:
+- <iframe src="..."></iframe>
