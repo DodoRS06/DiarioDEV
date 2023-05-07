@@ -28,6 +28,12 @@ Parágrafo:
 Citação:
 - <blockquote>CONTEÚDO</blockquote>
 
+Texto pequeno:
+- <small>CONTEÚDO</small>
+
+Traço na página (separar conteúdo):
+- <hr/>
+
 Negrito:
 - <strong>CONTEÚDO</strong>
 
