@@ -131,3 +131,20 @@ Adicionar legenda no vídeo:
   
 Abrir outras páginas dentro de uma página:
 - <iframe src="..."></iframe>
+
+Tabelas:
+- <table summary="DESCRIÇÃO CONTEÚDO DA TABELA" cellspacing="" cellpadding="">
+    <tr> //TABLE ROW
+        <td>CONTEÚDO PRIMEIRA COLUNA
+        <td>CONTEÚDO SEGUNDA COLUNA
+    <tr>
+  </table>
+  
+Linha da coluna (table row):
+- <tr>CONTEÚDO</tr>
+ 
+Cabeçalho de uma tabela:
+- <th>CONTEÚDO</th>
+
+Colunas de uma tabela:
+- <td>CONTEÚDO</td>
