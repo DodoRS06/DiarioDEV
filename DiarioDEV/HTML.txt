@@ -108,10 +108,26 @@ Fazer retângulo ao redor de um trecho (segmentação):
 Fazer título para o segmento (fieldset):
 - <legend>CONTEÚDO</legend>
 
+Imagens:
+- <img title="" alt="" src="..."/>
+
+Imagens .SVG (vetor):
+- <svg>...</svg>
+
+Áudio:
+- <audio autoplay controls>
+    <source src="...">
+    Seu navegador não tem suporte de áudio
+  </audio>
+
 Vídeos:
 - <video controls autoplay>
     <source src="...">
+    Seu navegador não tem suporte de vídeo
   </video>
+  
+Adicionar legenda no vídeo:
+- <track src="....vtt" kind="captions" srclang="pt-br"/>
   
 Abrir outras páginas dentro de uma página:
 - <iframe src="..."></iframe>
